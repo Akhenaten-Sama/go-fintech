@@ -1,7 +1,12 @@
 package main
 
-import "github.com/Akhenaten-Sama/go-fintech/migrations"
+import (
+	api "github.com/Akhenaten-Sama/go-fintech/Api"
+	//"github.com/Akhenaten-Sama/go-fintech/migrations"
+)
+
 
 func main() {
-	migrations.Migrate()
+	//migrations.Migrate()
+	api.StartAPi()
 }
